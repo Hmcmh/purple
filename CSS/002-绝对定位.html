@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>绝对定位</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.box{
+			width: 100px;
+			height: 100px;
+			background: red;
+
+			
+			/*绝对定位  相对于父元素 移动 脱离标准流  不区分 块 行内 行内块状*/
+
+			/*参考点： 1.离他最近   2.具有定位属性（相对，绝对，固定，不包括静态）*/
+
+							/*3.如果都没有 就相对 body*/
+			/*首屏可视区： 刷新页面看到的 整块 区域 */
+			position: absolute;
+			top:10px;
+			left: 10px;
+		}
+		.box2{
+			width: 100px;
+			height: 100px;
+			background: blue;
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+	<div class="box2"></div> 	
+</body>
+</html>
