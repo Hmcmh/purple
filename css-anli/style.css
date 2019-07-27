@@ -1,0 +1,94 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.box1{
+	width: 70%;
+	height: 40px;
+	background-color: gray;
+	margin:20px auto;
+}
+.box2{
+	position: relative;
+	width: 60%;
+	height: 400px;
+	margin: 0 auto;
+	background-color: red;
+}
+.box3{
+	position: relative;
+	width: 70%;
+	margin: 30px auto;
+	height: 500px;	
+	background-color: gold;
+}
+li{
+
+list-style:none;
+width: 188px;
+float: left;
+line-height: 40px;
+text-align: center;
+
+}
+#hh{
+	background: red;
+}
+.left{
+	position: absolute;
+	left: 0;
+	top: 200px;
+	width: 120px;
+	height: 220px;
+	background: red;
+}
+.right{
+	right: 0;
+	top: 200px;
+	position: absolute;
+	width: 120px;
+	height: 220px;
+	background: red;
+}
+.jj{
+	position: absolute;
+	right: 0;
+	width: 100px;
+	height: 100px; 
+	background: gray;
+	line-height: 100px;
+}
+.ee{
+	width: 50px;
+	height: 100px;
+	background: gray;
+}
+.ll{
+	position: absolute;
+	width: 40px;
+	height: 60px;
+	line-height: 60px;
+	background: pink;
+	top: 170px;
+	left: 0;
+	text-align: center;
+	font-size: 25px;
+	display: none;
+}
+.rr{
+	position: absolute;
+	width: 40px;
+	height: 60px;
+	background: pink;
+	top: 170px;
+	right: 0;
+	line-height: 60px;
+	text-align: center;
+	font-size: 25px;
+	display: none;
+}
+
+
+
+鼠标 悬停  显示  隐藏内容  ？？？？
