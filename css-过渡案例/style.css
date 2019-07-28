@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	width: 1000px;
+	height: 500px;
+	border: 1px solid #000;
+	margin-top: 50px;
+	margin: 100px auto;
+}
+li{
+	list-style: none;
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.p1{
+	background: red;
+}
+.p2{
+	background: gray;
+}
+.p3{
+	background: yellow;
+}
+.p4{
+	background: black;
+}
+.p5{
+	background: blue;
+}
+ul :hover li{
+	width: 600px; 
+}
+
+过渡 案例 和 过渡 课程笔记  试题

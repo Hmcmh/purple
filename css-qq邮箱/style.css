@@ -45,18 +45,13 @@ footer{
 	float: left;
 }
 .in{
+	border: 1px solid #ccc;
 	margin-top: 112px;
 	margin-right: 500px;
 	float: right;
-	width: 340px;
+	/*width: 340px;*/
 	height: 387px;
-	background: blue;
-}
-.box22{
-
-}
-.ppp{
-
+	background: #f9fbfe	;
 }
 .box22 ul li{
 	color:#1d5494;
@@ -73,4 +68,70 @@ footer{
 	float: left;
 	font-size: 12px;
 	line-height: 36px;
+}
+.ll{
+	list-style: none;
+	width: 340px;
+	height: 50px;
+	background: #f9fbfe	;
+	display: inline-block;
+	border-bottom: 1px solid #ccc;
+}
+.ll li{
+	line-height: 50px;
+	text-align: center;
+	width: 50%;
+	float: right;
+}
+.lin{
+	display: block;
+	color: white;
+}
+.er{
+	width: 284px;
+	height: 38px;
+	margin-left: 26px;
+	margin-top: 36px;
+}
+.et{
+	margin-top: 11px;
+	width: 284px;
+	height: 38px;
+	margin-left: 26px;
+}
+.ey{
+	width: 18px;
+	height: 17px;
+}
+.pp{
+	margin-left: 26px;
+	display: inline-block;	
+}
+.lk{
+	width: 285px;
+	height: 40px;
+	margin-left: 26px;
+	margin-top: 17px;
+	background: #5a98de;
+	border: none;
+}
+
+.ee{
+	margin-left: 125px;
+	margin-top: 22px;
+	color: #225592;
+}
+.pop{
+	margin-left: 250px;
+	color:#225592;  
+}
+.in .hh{
+	margin-left: 6px;
+}
+#llll{
+	margin-top: 25px;
+
+}
+.hh{
+	vertical-align: 4px;
 }
