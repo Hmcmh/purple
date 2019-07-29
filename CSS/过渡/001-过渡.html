@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>001-过渡.html</title>
+	<style>
+		
+	.基本写法{
+		/*1.过渡的属性*/
+			transition-property: 属性，属性;
+		
+		/*2.过渡的时间*/
+			transition-duration: 时间，时间;
+		
+		/*3.添加延迟属性*/
+			transition-delay: 时间;  延迟属性
+		
+		/*4.取值单词*/
+			transition-timing-function: linear|ease 默认的|ease-in|ease-out|ease-in-out|cubic-bezier(x1,y1,x2,y2);过渡的执行速度
+	}
+	.复合写法{
+		/*1. 一组属性 需要过渡   空格隔开*/
+			transition:  需要过渡的属性   执行过渡的时间   执行过渡的速度   延迟时间;
+			/*例子*/
+				transition:width 3s linear 2s;
+
+		/*2.多组属性过渡 逗号隔开 */
+			transition:需要过渡的属性 执行过渡的时间 执行过渡的速度 延迟时间 , 需要过渡的属性 执行过渡的时间 执行过渡的速度 延迟时间...;
+			/*例子*/
+				transition:width 3s linear 2s,background-color 3s linear 2s;
+		
+		/*3.多属性简写 -- all*/
+				transition:all 3s;
+
+	}
+
+
+	</style>
+</head>
+<body>
+	
+</body>
+</html>

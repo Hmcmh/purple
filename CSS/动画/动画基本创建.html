@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>动画基本创建.html</title>
+	<style>
+		.box{
+			width: 200px;
+			height: 200px;
+			background: red;
+			animation-name: sport;/*1.定义名字*/ 
+			animation-duration: 2s; /*3.确定时间*/
+		}
+		@keyframes sport{ 
+			/*2.创建指定名称的动画*/
+			from{
+				/*开始*/
+				width: 200px;
+			}
+			to{
+				width: 800px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>

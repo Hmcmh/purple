@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>百分比创建</title>
+	<style>
+		.box{
+			width: 800px;
+			height: 800px;
+			position: relative;
+			border: 1px solid #000;
+			margin: 50px auto;
+			
+		}
+		.son{
+			position: absolute;
+			width: 100px;
+			height: 100px;
+			background: red;
+			animation-name: sport;/*1.定义名字*/ 
+			animation-duration: 4s; /*3.确定时间*/
+			animation-iteration-count: infinite; 
+			animation-timing-function:ease-in-out;
+
+		}
+		@keyframes sport{
+			0%{
+				top:0px;
+				left: 0px;
+				transform: rotate(180deg);
+
+			}
+			25%{
+				top:0px;
+				left: 700px;
+				transform: rotate(150deg);
+			}
+			50%{
+				top:700px;
+				left: 700px;
+				transform: rotate(180deg);
+			}
+			75%{
+				top:700px;
+				left:0px;
+				transform: rotate(246deg);
+			}
+			100%{
+				top:0px;
+				left: 0px;
+				transform: rotate(360deg);
+			}
+
+
+
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="son"></div>
+	</div>
+</body>
+</html>

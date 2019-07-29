@@ -8,12 +8,25 @@ ul{
 	border: 1px solid #000;
 	margin-top: 50px;
 	margin: 100px auto;
+	overflow: hidden;
+
 }
 li{
 	list-style: none;
-	width: 20%;
-	height: 100%;
+	width: 200px;
+	height: 500px;
 	float: left;
+	transition-property:width;
+	transition-duration: 2s; 
+}
+li img{
+	height: 500px;
+}
+ul:hover li{
+	width: 100px;
+}
+ul li:hover{
+	width: 600px;
 }
 .p1{
 	background: red;
@@ -30,8 +43,25 @@ li{
 .p5{
 	background: blue;
 }
-ul :hover li{
-	width: 600px; 
-}
 
-过渡 案例 和 过渡 课程笔记  试题
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+过渡 案例 和 过渡 课程笔记  试题   :hover 同级 ~ 后代 空格 

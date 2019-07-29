@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2d转换-旋转-平移-缩放</title>
+	<style>
+		.旋转{
+			 transform: rotate(ndeg);
+		}
+
+		.平移{
+			 transform: translate(X,Y); /*X y为移动距离*/
+		}
+
+		.缩放{
+			 transform: translate(X,Y);/*X y为缩放比例*/
+				 缩放比例如果是1代表不变,大于1代表放大,小于1代表缩小
+				 如果水平和垂直方向上缩放比例一样,可以简写一个
+		}
+		.三者复合{
+			 transform: rotate(ndeg) translate(水平方向移动距离,垂直方向移动距离) scale(水平方向缩放比例,垂直方向缩放比例);
+		}
+		.修改旋转基点{
+			格式: transform-origin: 水平方向移动距离 垂直方向移动距离;
+		}
+
+		.修改旋转轴向{
+			在rotate后面加上轴向可以改变旋转的轴向,即rotateZ是沿着Z轴旋转,rotateX是沿着X轴旋转,rotateY是沿着Y轴旋转
+		}
+		.元素近大远小效果{
+			为了让元素呈现近大远小效果,需要给元素的父元素上面添加透视距离属性perspective
+		}
+	</style>
+</head>
+<body>
+	
+</body>
+</html>
