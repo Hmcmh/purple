@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>018-利用参数改变样式</title>
+	<style type="text/css">
+		#box,#box1{
+			margin: 50px;
+			width: 300px;
+			height: 300px;
+			border: 1px solid #000;
+		}
+	</style>
+</head>
+<body>
+	<button id="btn1">高</button>
+	<button id="btn2">宽</button>
+	<button id="btn3">变色</button>
+	<div id="box"></div>
+	<div id="box1"></div>
+</body>
+<script type="text/javascript">
+	var hezi = document.getElementById('box');
+	var hehe = document.getElementById('box1');
+	var kuan = document.getElementById('btn1');
+	var gao = document.getElementById('btn2');
+	var bian = document.getElementById('btn3');
+
+	function css(obj,attr,appr){
+		obj.style[attr] = appr
+	}
+
+	kuan.onclick= function(){
+		// hezi.style.width= '800px';
+		css(hezi,'width','800px');
+		css(hehe,'width','800px');
+	}
+	gao.onclick= function(){
+			// hezi.style.height= '800px';
+			css(hezi,'height','800px');
+			css(hehe,'height','800px');
+		}
+	bian.onclick= function(){
+			// hezi.style.background= 'red';
+			css(hezi,'background','red');
+			css(hehe,'background','red');
+		}
+
+
+
+</script>
+</html>
